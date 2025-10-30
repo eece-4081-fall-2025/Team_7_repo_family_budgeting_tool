@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django
+*.log
+db.sqlite3
+staticfiles/
+media/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Migrations (optional — keep if you want them versioned)
+*/migrations/__pycache__/
+# Uncomment the next line if you don’t want migration files in Git
+# */migrations/*.py
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Test output
+.coverage
+htmlcov/
+pytest_cache/
